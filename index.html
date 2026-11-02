@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#346d5d">
+  <meta name="description" content="Learn how Portrait Flow protects your photos and handles advertising and purchase information.">
+  <title>Privacy Policy | Portrait Flow</title>
+  <style>
+    :root {
+      --green: #346d5d;
+      --green-dark: #21493f;
+      --text: #23342f;
+      --muted: #65736e;
+      --surface: #f5f4ed;
+      --white: #fffefa;
+      --line: #e0e5de;
+      --soft: #eaf1eb;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--surface); color: var(--text);
+      font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased; }
+    a { color: var(--green-dark); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: var(--green); }
+    a:focus-visible { outline: 3px solid #95c5b2; outline-offset: 4px; border-radius: 3px; }
+    .skip { position: absolute; left: 12px; top: -100px; z-index: 10; padding: 10px 14px; background: white; }
+    .skip:focus { top: 12px; }
+    .header { border-bottom: 1px solid var(--line); background: rgba(255,254,250,.86); }
+    .header-inner { max-width: 1050px; margin: auto; padding: 19px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .brand { display: inline-flex; gap: 12px; align-items: center; color: var(--green-dark); text-decoration: none; font-weight: 800; letter-spacing: -.04em; font-size: 1.15rem; }
+    .mark { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 11px; background: var(--green); color: white; font-size: 22px; line-height: 1; font-weight: 500; }
+    .header-tag { color: var(--muted); font-size: .82rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
+    .hero { max-width: 1050px; margin: auto; padding: 68px 24px 36px; }
+    .eyebrow { margin: 0 0 10px; color: var(--green); font-weight: 750; font-size: .83rem; letter-spacing: .14em; text-transform: uppercase; }
+    h1 { margin: 0; font-size: clamp(2.3rem, 5vw, 3.75rem); letter-spacing: -.055em; line-height: 1.11; color: #20372e; }
+    .intro { max-width: 745px; color: #4f6159; font-size: 1.13rem; margin: 22px 0 13px; }
+    .updated { color: var(--muted); font-size: .88rem; }
+    .wrap { max-width: 1050px; margin: auto; padding: 0 24px 76px; }
+    .summary { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 14px; margin: 16px 0 44px; }
+    .summary article { background: var(--white); border: 1px solid var(--line); border-radius: 17px; padding: 22px; }
+    .symbol { width: 38px; height: 38px; display: grid; place-items: center; background: var(--soft); color: var(--green-dark); border-radius: 12px; margin-bottom: 17px; font-size: 22px; }
+    .summary h2 { font-size: 1rem; margin: 0 0 6px; line-height: 1.4; }
+    .summary p { color: var(--muted); font-size: .91rem; margin: 0; line-height: 1.58; }
+    .layout { display: grid; grid-template-columns: 220px minmax(0,1fr); align-items: start; gap: 40px; }
+    nav { position: sticky; top: 24px; padding: 10px 0; }
+    nav .nav-label { margin: 0 0 12px; text-transform: uppercase; letter-spacing: .09em; font-size: .74rem; font-weight: 800; color: var(--muted); }
+    nav ol { list-style: none; padding: 0; margin: 0; }
+    nav li { margin: 4px 0; }
+    nav a { display: block; color: #64716c; font-size: .86rem; line-height: 1.35; padding: 8px 8px 8px 12px; text-decoration: none; border-left: 2px solid transparent; }
+    nav a:hover, nav a:focus-visible { color: var(--green-dark); border-left-color: var(--green); background: #edf2ec; }
+    .policy { background: var(--white); border: 1px solid var(--line); border-radius: 20px; padding: 22px 40px 40px; box-shadow: 0 8px 28px rgba(24,55,40,.025); }
+    section { scroll-margin-top: 20px; padding: 24px 0 30px; border-bottom: 1px solid var(--line); }
+    section:last-child { border: 0; padding-bottom: 0; }
+    section h2 { font-size: 1.38rem; letter-spacing: -.035em; margin: 2px 0 13px; color: var(--green-dark); line-height: 1.35; }
+    section h3 { margin: 21px 0 5px; font-size: 1rem; }
+    p { margin: 0 0 12px; }
+    p:last-child { margin-bottom: 0; }
+    ul { padding-left: 21px; margin: 10px 0 13px; }
+    li { margin: 7px 0; }
+    strong { font-weight: 750; }
+    .note { background: #eef4ed; border-left: 3px solid var(--green); border-radius: 0 10px 10px 0; padding: 15px 17px; margin: 17px 0 5px; font-size: .94rem; }
+    .contact-placeholder { color: #7e4b1b; font-weight: 750; background: #fff2d9; padding: 2px 5px; border-radius: 4px; }
+    footer { background: #244b40; color: #dcebe4; }
+    .footer-inner { max-width: 1050px; margin: auto; padding: 30px 24px; display: flex; justify-content: space-between; gap: 20px; align-items: center; font-size: .87rem; }
+    footer a { color: white; }
+    @media (max-width: 760px) {
+      .hero { padding-top: 46px; }
+      .summary { grid-template-columns: 1fr; gap: 10px; margin-bottom: 24px; }
+      .summary article { display: grid; grid-template-columns: 38px 1fr; column-gap: 14px; padding: 16px; }
+      .summary .symbol { grid-row: span 2; margin: 0; }
+      .summary h2 { align-self: end; }
+      .layout { display: block; }
+      nav { position: static; padding: 2px 0 20px; }
+      nav ol { display: flex; gap: 5px; overflow-x: auto; padding-bottom: 4px; }
+      nav li { margin: 0; flex: 0 0 auto; }
+      nav a { padding: 8px 11px; border: 1px solid var(--line); border-radius: 8px; background: var(--white); white-space: nowrap; }
+      .policy { padding: 11px 22px 23px; }
+      section { padding: 19px 0 24px; }
+      .footer-inner { align-items: flex-start; flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to privacy policy</a>
+  <header class="header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Portrait Flow, top of page"><span class="mark" aria-hidden="true">◒</span><span>portrait flow</span></a>
+      <span class="header-tag">Privacy &amp; trust</span>
+    </div>
+  </header>
+
+  <div id="top" class="hero">
+    <p class="eyebrow">Our commitment to your privacy</p>
+    <h1>Privacy Policy</h1>
+    <p class="intro">Portrait Flow is a portrait-editing app for iOS and Android. Your images are edited directly on your device. This policy explains what stays on your device and what information may be processed by advertising, purchase, and platform services.</p>
+    <p class="updated"><strong>Effective date:</strong> November 2, 2026 &nbsp;·&nbsp; <strong>Last updated:</strong> November 2, 2026</p>
+  </div>
+
+  <main id="main" class="wrap">
+    <div class="summary" aria-label="Privacy summary">
+      <article><span class="symbol" aria-hidden="true">▧</span><h2>Photos stay on your device</h2><p>Editing happens locally. We do not upload your portraits to a server for processing.</p></article>
+      <article><span class="symbol" aria-hidden="true">◇</span><h2>You choose what to share</h2><p>Exports go only to the save or share destination you select.</p></article>
+      <article><span class="symbol" aria-hidden="true">◎</span><h2>Third-party services are disclosed</h2><p>AdMob may support rewarded ads; RevenueCat helps manage Pro purchases.</p></article>
+    </div>
+
+    <div class="layout">
+      <nav aria-label="Policy contents">
+        <p class="nav-label">On this page</p>
+        <ol>
+          <li><a href="#about">1. About this policy</a></li>
+          <li><a href="#photos">2. Your photos and edits</a></li>
+          <li><a href="#data">3. Information processed</a></li>
+          <li><a href="#services">4. Third-party services</a></li>
+          <li><a href="#permissions">5. Permissions</a></li>
+          <li><a href="#retention">6. Storage and retention</a></li>
+          <li><a href="#choices">7. Your choices and rights</a></li>
+          <li><a href="#children">8. Children</a></li>
+          <li><a href="#international">9. International processing</a></li>
+          <li><a href="#changes">10. Changes</a></li>
+          <li><a href="#contact">11. Contact and support</a></li>
+        </ol>
+      </nav>
+
+      <div class="policy">
+        <section id="about">
+          <h2>1. About this policy</h2>
+          <p>This Privacy Policy applies to the <strong>Portrait Flow</strong> mobile application (the “App”). In this policy, “we,” “our,” and “us” refer to the publisher of Portrait Flow. It explains how the App handles information when you import photos, edit portraits, view optional rewarded advertisements, make a Pro purchase, or export images.</p>
+          <p>The App does not require you to create a Portrait Flow account to edit photos.</p>
+        </section>
+
+        <section id="photos">
+          <h2>2. Your photos and edits</h2>
+          <ul>
+            <li><strong>Local editing:</strong> Images you select are decoded and processed on your device using the App's image editor. We do not operate a server that receives your photos for editing.</li>
+            <li><strong>No face identification:</strong> The App provides image distortion and painting tools. It does not use your photos to identify people or build biometric profiles.</li>
+            <li><strong>Temporary editing session:</strong> The original image and the in-progress edit are held for the editing session; the App does not currently offer cloud sync or saved editable projects.</li>
+            <li><strong>Exports:</strong> If you have Pro and choose to export, the App creates a new PNG or JPEG file. Newly encoded exports do not preserve the original image's embedded EXIF or GPS metadata.</li>
+            <li><strong>Your decision to share:</strong> Saving a photo to your gallery or Files keeps it at the destination you choose. Using the device's Share feature may transmit the exported image to a third-party app or service you select; that service's privacy practices then apply.</li>
+          </ul>
+          <div class="note"><strong>In short:</strong> Your portrait content is not sent to Google AdMob or RevenueCat by Portrait Flow for photo editing.</div>
+        </section>
+
+        <section id="data">
+          <h2>3. Other information that may be processed</h2>
+          <h3>Advertising</h3>
+          <p>If you choose to watch a rewarded advertisement in a version where that feature is available, Google AdMob and its consent services may process device information, IP address, app or ad interactions, advertising identifiers where permitted, and information needed to deliver ads, measure performance, prevent fraud, and manage your privacy choices. Ad requests from Portrait Flow are configured as <strong>non-personalized</strong>; non-personalized does not mean no data processing.</p>
+          <h3>Purchases</h3>
+          <p>For Pro purchase, restoration, and entitlement checks, Apple App Store or Google Play and RevenueCat may process transaction details, purchase receipts or tokens, purchase status, app-specific customer identifiers, and limited device or technical information. We do not receive your full credit-card number through the App.</p>
+          <h3>Support requests</h3>
+          <p>If you contact us, we may receive the email address and information you voluntarily provide, and use it to answer your request. Please do not include private portraits or sensitive personal information unless necessary.</p>
+          <p>Portrait Flow does not currently include a separate developer-operated account system or a dedicated in-app analytics service. Third-party advertising and purchase services may nevertheless collect information as described above.</p>
+        </section>
+
+        <section id="services">
+          <h2>4. Third-party services</h2>
+          <p>The App integrates the following services, which have their own data-handling practices:</p>
+          <ul>
+            <li><strong>Google AdMob / User Messaging Platform (Google):</strong> used for optional rewarded advertising and advertising consent/privacy options. <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads" rel="noopener noreferrer" target="_blank">Google advertising information</a>.</li>
+            <li><strong>RevenueCat:</strong> helps the App offer, verify, and restore the Portrait Flow Pro one-time purchase. <a href="https://www.revenuecat.com/privacy" rel="noopener noreferrer" target="_blank">RevenueCat Privacy Policy</a>.</li>
+            <li><strong>Apple App Store / Google Play:</strong> provide purchase processing, operating-system permissions, photo selection, and system save/share functions. Refer to <a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer" target="_blank">Apple's Privacy Policy</a> or <a href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">Google's Privacy Policy</a>, as applicable.</li>
+          </ul>
+          <p>We do not sell or license your imported portraits to advertisers or data brokers. The providers above may process data under their respective policies to deliver the features they support.</p>
+        </section>
+
+        <section id="permissions">
+          <h2>5. Device permissions</h2>
+          <p>The App may request access to photos or files when you choose an image to edit. It may request permission to add an exported image to your photo library when you choose to save to Photos or Gallery. Permission prompts and their exact wording depend on your operating system and version.</p>
+          <p>You can change photo-library permissions through your device's Settings. If permission is denied, some import or save functions may be unavailable; alternative file-picker options may remain available.</p>
+        </section>
+
+        <section id="retention">
+          <h2>6. Storage, security, and retention</h2>
+          <ul>
+            <li><strong>Portraits and edits:</strong> held locally for the active editing session. Closing or resetting the App discards the active project; the App does not store copies on our own servers.</li>
+            <li><strong>Exported files:</strong> remain in your selected gallery, file location, or sharing destination until you or that destination removes them. Temporary export files may be created on-device and are subject to the App's cleanup process and the operating system's temporary-file management.</li>
+            <li><strong>Purchase and ad data:</strong> are retained by relevant service providers according to their policies and applicable legal obligations. Removing the App does not automatically erase their transaction records.</li>
+            <li><strong>Security:</strong> local image processing reduces exposure of photo content to remote services, but no software or storage system can guarantee absolute security.</li>
+          </ul>
+        </section>
+
+        <section id="choices">
+          <h2>7. Your choices and privacy rights</h2>
+          <ul>
+            <li><strong>Advertising choices:</strong> where ads are enabled, open <em>Settings → Advertising privacy options</em> in the App to review available consent choices. You can choose not to watch a rewarded ad; this may limit free use of your own photos.</li>
+            <li><strong>No-ad option:</strong> Portrait Flow Pro provides an ad-free experience and adds export features.</li>
+            <li><strong>Photo access:</strong> manage permissions in iOS or Android Settings.</li>
+            <li><strong>Remove local images:</strong> replace the current photo or close the App to discard the unsaved editing session; delete exported images from the locations where you saved them.</li>
+            <li><strong>Purchase information:</strong> use <em>Restore purchases</em> in the App to restore eligible purchases. To request access to, correction of, or deletion of personal information held in connection with the App, contact us using the details below. Some purchase records may need to be retained by stores or providers for legal or transaction purposes.</li>
+          </ul>
+          <p>Depending on your location, you may have additional data-protection rights, including rights to access, correct, delete, or object to certain processing. We will handle requests as required by applicable law and may direct you to the relevant service provider when it independently controls the data.</p>
+        </section>
+
+        <section id="children">
+          <h2>8. Children's privacy</h2>
+          <p>Portrait Flow is not directed to children under 13. We do not knowingly solicit personal information from children under 13 through the App. If you believe a child has provided personal information through an App-related service, please contact us so we can review the concern with the relevant provider.</p>
+        </section>
+
+        <section id="international">
+          <h2>9. International data processing</h2>
+          <p>Although your photos are processed locally, third-party advertising, purchase, and platform providers may handle related technical or transaction information in countries other than where you live, subject to their policies and applicable legal safeguards.</p>
+        </section>
+
+        <section id="changes">
+          <h2>10. Changes to this policy</h2>
+          <p>We may update this policy when App features, service providers, or legal requirements change. We will post the updated policy at the same publicly accessible address and revise the “Last updated” date above. Where required by law, we will provide additional notice or seek consent.</p>
+        </section>
+
+        <section id="contact">
+          <h2>11. Contact and support</h2>
+          <p>For help with Portrait Flow, purchase restoration, privacy questions, or data-rights requests, please contact the app publisher:</p>
+          <p><strong>Email:</strong> <a href="mailto:anha2k47@gmail.com">anha2k47@gmail.com</a></p>
+          <p>For app support, include “Portrait Flow support” in the subject and describe the problem, your device model, and your app and operating-system versions. To restore Pro, use <em>Restore purchases</em> in the App with the Apple or Google account used for the original purchase.</p>
+          <p>For privacy requests, include “Portrait Flow privacy request” in the subject so we can identify your request quickly.</p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner"><span>© 2026 Portrait Flow. Your creativity stays yours.</span><span>Privacy Policy · Updated November 2, 2026</span></div>
+  </footer>
+</body>
+</html>
