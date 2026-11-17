@@ -1,0 +1,69 @@
+{
+  "status": "Listing preview only; not yet submitted or published on Google Play",
+  "captured": "2026-11-17",
+  "sourceCommit": "2f26312d6ac0cf720c93036d87ff9908d30e7811",
+  "preparationRun": 43990616705,
+  "renderer": "Production Flutter widgets in Android layout, host capture with Roboto and Material Icons",
+  "artwork": "26 bundled artworks; real heart pointer gestures through the production drawing engine",
+  "isolatedPorts": [
+    "billing",
+    "ads",
+    "storage"
+  ],
+  "access": "Premium active to demonstrate full guidance; optional access terms disclosed in listing",
+  "imageTreatment": "Uniform framing and captions; captured controls and drawing results retained",
+  "images": [
+    {
+      "file": "listing-contact-sheet.png",
+      "gitBlob": "9b196fa647b71aa897de1f03d1fd3040d6818933"
+    },
+    {
+      "file": "feature-graphic.png",
+      "gitBlob": "cc36252bc46ae1efb8ae59e155dba9fb67ca33e7"
+    },
+    {
+      "file": "app-icon.png",
+      "gitBlob": "c5722819559814cefc00e3bd859a52cdfd754b90"
+    },
+    {
+      "file": "phone/01-03-guided-lesson.png",
+      "gitBlob": "df5025af852d752d04808cc604702626207df2f3"
+    },
+    {
+      "file": "phone/02-01-discover.png",
+      "gitBlob": "8885973fcd003af37126622f9ba3925682182f89"
+    },
+    {
+      "file": "phone/03-04-trace-and-practise.png",
+      "gitBlob": "0b5b6b3fd027969ff47b0e86b9254ac610a405f6"
+    },
+    {
+      "file": "phone/04-02-artwork.png",
+      "gitBlob": "feee3b0f061a2db867dc5acd2e0459c1a63b7512"
+    },
+    {
+      "file": "phone/05-05-completed-heart.png",
+      "gitBlob": "d186b444797eb5dfa61b90f80a7842225901507e"
+    },
+    {
+      "file": "phone/06-06-my-drawings.png",
+      "gitBlob": "11580780278744eb30bf5f72528eeee2f4be10f0"
+    },
+    {
+      "file": "tablet/01-03-guided-lesson.png",
+      "gitBlob": "ffd183378a61d6359405b5b9c7fb5f7a9573b8c7"
+    },
+    {
+      "file": "tablet/02-01-discover.png",
+      "gitBlob": "1314598509d152a627f8e6aa12323b668f1c66d7"
+    },
+    {
+      "file": "tablet/03-04-trace-and-practise.png",
+      "gitBlob": "7c21f03b4596c16d0fe677a193a5f3634bef7e67"
+    },
+    {
+      "file": "tablet/04-06-my-drawings.png",
+      "gitBlob": "0085e01e1387f64f9bd9f9bccefcca9760925edb"
+    }
+  ]
+}

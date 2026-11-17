@@ -1,0 +1,5 @@
+Welcome to Baby Can Draw!
+• Discover 26 built-in line-art drawings.
+• Learn with animated stroke-by-stroke guides.
+• Trace, practise and enjoy free drawing.
+• Save your work locally and export PNG or SVG.
